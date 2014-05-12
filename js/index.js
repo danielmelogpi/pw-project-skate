@@ -55,10 +55,20 @@ function zoomOnMarker (event, marker) {
 }
 
 function addButtons() {
-	var nav = $("<button value='navegar até aqui>'");
-	$(".buttons");
+	var nav = $("<input type='button' value='navegar até aqui' class='btn btn-info'> ");
+	var details = $("<input type='button' value='detalhes' onclick='details' class='btn btn-info'>");
+
+	details.click(goTodetails);
+	
+	$(".buttons").html("");
+	$(".buttons").append(nav);
+	$(".buttons").append(details);
 }
 
+/** go to place details page */
+function goTodetails() {
+	location.href='view-place.html';
+}
 /** Retorna os pontos com os picos */
 function getPoints() {
 	return [
