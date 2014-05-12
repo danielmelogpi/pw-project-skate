@@ -1,0 +1,11 @@
+.thumbs img {
+    border: 4px solid #CDCDCD;
+    box-shadow: 2px 2px 2px;
+    margin: 4px;
+    max-height: 70px;
+    cursor: pointer;
+}
+
+.panorama img {
+	max-height: 300px;
+}
