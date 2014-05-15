@@ -2,102 +2,117 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+	<title>Starter Template for Bootstrap</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="css/view-place-videos.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Add custom CSS here -->
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+	<link href="css/view-place-videos.css" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div id="wrapper">
+	<div id="wrapper">
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#">Start Bootstrap</a>
-                </li>
-                <li><a href="#">Dashboard</a>
-                </li>
-                <li><a href="#">Shortcuts</a>
-                </li>
-                <li><a href="#">Overview</a>
-                </li>
-                <li><a href="#">Events</a>
-                </li>
-                <li><a href="#">About</a>
-                </li>
-                <li><a href="#">Services</a>
-                </li>
-                <li><a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li class="sidebar-brand"><a href="#">Start Bootstrap</a>
+				</li>
+				<li><a href="#">Dashboard</a>
+				</li>
+				<li><a href="#">Shortcuts</a>
+				</li>
+				<li><a href="#">Overview</a>
+				</li>
+				<li><a href="#">Events</a>
+				</li>
+				<li><a href="#">About</a>
+				</li>
+				<li><a href="#">Services</a>
+				</li>
+				<li><a href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
 
-        <!-- Page content -->
-        <div id="page-content-wrapper">
-            <div class="content-header">
-                <h1>
-                    <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
-                    Site Title
-                </h1>
-            </div>
-            <!-- Keep all page content within the page-content inset div! -->
-            <div class="page-content inset">
-                <div class="buttons col-md-12">
-                    <a href="view-place-pictures.html">
-                        <input type="button" class="btn btn-info  col-md-2 col-sm-6 col-xs-6" value="Fotos">
-                    </a>
-                    <a href="view-place-videos.html">
-                        <input type="button" class="btn btn-info col-md-2 col-sm-6 col-xs-6" value="Videos">
-                    </a>
-                </div>
-                <br/>
-                <br/>
-                <div class="panorama text-center">
-                    <iframe class="col-md-6 col-sm-12 col-xs-12" height="315" src="http://www.youtube.com/embed/uexLdi2T_bU" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="thumbs text-center">
-                    <img src="http://i1.ytimg.com/vi/xo74UpsI-9o/default.jpg" 
-                        data-vid="http://www.youtube.com/embed/xo74UpsI-9o"/> 
-                    <img src="http://i1.ytimg.com/vi/a5dhhGXWq1E/default.jpg" 
-                        data-vid="http://www.youtube.com/embed/a5dhhGXWq1E" />  
-                    <img src="http://i1.ytimg.com/vi/r-Dxv7Dc5Fo/default.jpg" 
-                        data-vid="http://www.youtube.com/embed/r-Dxv7Dc5Fo"/>  
-                    <img src="http://i1.ytimg.com/vi/c-Lwm0phlME/default.jpg" 
-                        data-vid="http://www.youtube.com/embed/c-Lwm0phlME"/>  
-                    <img src="http://i1.ytimg.com/vi/rpDCLkqWjLw/default.jpg" 
-                        data-vid="http://www.youtube.com/embed/rpDCLkqWjLw"/>
-                </div>
-            </div>
-            
-        </div>
+		<!-- Page content -->
+		<div id="page-content-wrapper">
+			<div class="content-header">
+				<h1>
+					<a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
+					Site Title
+				</h1>
+			</div>
+			<!-- Keep all page content within the page-content inset div! -->
+			<div class="page-content inset">
+				<div class="buttons col-md-12">
+					<a href="view-place-pictures.html">
+						<input type="button" class="btn btn-info  col-md-2 col-sm-6 col-xs-6" value="Fotos">
+					</a>
+					<a href="view-place-videos.html">
+						<input type="button" class="btn btn-info col-md-2 col-sm-6 col-xs-6" value="Videos">
+					</a>
+				</div>
+				<br/>
+				<br/>
+				<div  >
+					<div class="panorama text-center col-md-6 col-sm-12 col-xs-12" style="height: 315px; min-width: 400px; display: inline-block">
+						<iframe style="width: 100%" height="315" src="http://www.youtube.com/embed/uexLdi2T_bU" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="thumbs text-center">
+						<img src="http://i1.ytimg.com/vi/xo74UpsI-9o/default.jpg" 
+							data-vid="http://www.youtube.com/embed/xo74UpsI-9o"/> 
+						<img src="http://i1.ytimg.com/vi/a5dhhGXWq1E/default.jpg" 
+							data-vid="http://www.youtube.com/embed/a5dhhGXWq1E" />  
+						<img src="http://i1.ytimg.com/vi/r-Dxv7Dc5Fo/default.jpg" 
+							data-vid="http://www.youtube.com/embed/r-Dxv7Dc5Fo"/>  
+						<img src="http://i1.ytimg.com/vi/c-Lwm0phlME/default.jpg" 
+							data-vid="http://www.youtube.com/embed/c-Lwm0phlME"/>  
+						<img src="http://i1.ytimg.com/vi/rpDCLkqWjLw/default.jpg" 
+							data-vid="http://www.youtube.com/embed/rpDCLkqWjLw"/>
+					</div>
+				</div>
 
-    </div>
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'pwskate'; // required: replace example with your forum shortname
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/view-place-videos.js"></script>
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+						var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+						(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+				</script>
+			</div>
+			
+		</div>
 
-    <!-- Custom JavaScript for the Menu Toggle -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("active");
-    });
-    </script>
+	</div>
+
+	<!-- JavaScript -->
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/view-place-videos.js"></script>
+
+	<!-- Custom JavaScript for the Menu Toggle -->
+	<script>
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#wrapper").toggleClass("active");
+	});
+	</script>
 </body>
 
 </html>
