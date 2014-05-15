@@ -133,3 +133,9 @@
 	position: relative;
 	min-width: 350px;
 }
+
+.description{
+	margin: 20px auto 20px auto;
+	padding: 20px;
+	position: relative;
+}
