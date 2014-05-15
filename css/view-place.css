@@ -1,0 +1,10 @@
+.slider {
+	max-width: 500px;
+	margin: auto;
+	position: relative;
+}
+
+.buttons {
+	margin: auto;
+	position: relative;
+}
